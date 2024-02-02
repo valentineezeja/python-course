@@ -1,9 +1,9 @@
-# Simple for loop
-# num = 0
-# num = input("how many times do I tell you ")
-# num = int(num)
-# for times in range(num):
-#     print(f"clean your room {num} times")
+Simple for loop
+num = 0
+num = input("how many times do I tell you ")
+num = int(num)
+for times in range(num):
+    print(f"clean your room {num} times")
 
 
 #a bit advanced
