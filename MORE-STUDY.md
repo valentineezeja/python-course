@@ -28,3 +28,4 @@ print(answer)
 
 -------------------------------------------------
 2. ## Dictionary comprehensions
+- Checkout the dictionaries comprehension exercise you skipped
