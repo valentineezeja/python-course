@@ -3,6 +3,7 @@
 NB: assuming items is a disctionary {1,2,3,4}
 running cat.items returns a tuple
 while running cat will return a dictionary
+Tuples are faster than sets and used to protect data that you don't want changed
 
 # Tuple Methods:
 - count
