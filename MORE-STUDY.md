@@ -29,3 +29,5 @@ print(answer)
 -------------------------------------------------
 2. ## Dictionary comprehensions
 - Checkout the dictionaries comprehension exercise you skipped
+
+3. ## Go back to function exercises. Practice and understand all
