@@ -13,5 +13,9 @@ an non-inbuilt function called fabs, which takes everything as float before conv
 imported using import math)
 - sum()
 - round()
+- zip
 
 Generator expression vs list comprehension: https://stackoverflow.com/questions/47789/generator-expressions-vs-list-comprehensions
+
+
+#Remember to checkout coding exercises in this section as a couple of them were skipped>
