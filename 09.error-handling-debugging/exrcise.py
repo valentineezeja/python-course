@@ -13,7 +13,9 @@
 # divide(1, 0)
 
 # Using raise
+
 def divide(num1, num2):
+    result = 0
     try:
         result = num1 / num2
     except TypeError as err:
@@ -24,4 +26,5 @@ def divide(num1, num2):
         return result
 
 
-divide(1, 0)
+test = divide(1, 5)
+print(test)
