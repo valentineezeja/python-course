@@ -47,3 +47,4 @@ tom = User.from_string("Tom,Jones,89")
 j = User("judy", "steele", 18)
 j = str(j)
 print(j)
+so basi
