@@ -15,3 +15,6 @@ You can find the MRO using the methods below:
 print(D.__mro__)
 print(D.mro())
 help(D)
+
+## Special methods
+https://docs.python.org/3/reference/datamodel.html#special-method-names
