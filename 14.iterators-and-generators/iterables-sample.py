@@ -20,3 +20,5 @@ def square(x):
 
 my_for("lol", print)
 my_for([1, 2, 3, 4, 5], square)
+
+
