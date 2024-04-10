@@ -11,17 +11,17 @@ c.execute("CREATE TABLE friends (first_name TEXT, last_name TEXT, closeness INTE
 # form_first = "Dana"
 # query = f"INSERT INTO friends (first_name) VALUES ('{form_first}')"
 
-# BETTER WAY!
-# form_first = "Mary-Todd"
-# query = f"INSERT INTO friends (first_name) VALUES (?)"
-# c.execute(query, (form_first,))
+BETTER WAY!
+form_first = "Mary-Todd"
+query = f"INSERT INTO friends (first_name) VALUES (?)"
+c.execute(query, (form_first,))
 
-# data = ("Steve", "Irwin", 9)
-# query = "INSERT INTO friends VALUES (?,?,?)"
-# c.execute(query, data)
-# # commit changes
-# conn.commit()
-# conn.close()
+data = ("Steve", "Irwin", 9)
+query = "INSERT INTO friends VALUES (?,?,?)"
+c.execute(query, data)
+# commit changes
+conn.commit()
+conn.close()
 
 
 
