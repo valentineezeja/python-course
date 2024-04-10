@@ -1,8 +1,7 @@
 
 ######### Version mismatch with this lecture and current scrapy usage etc. Use an updated lecture or tutorial to learn this concept independently
 import scrapy
-from Scrapy import Spider
-class BookSpider(scrapy.spider):
+class BookSpider(scrapy.Spider):
     name = 'bookspider'
     start_urls = ['http://books.toscrape.com']
 
